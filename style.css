@@ -1,0 +1,178 @@
+/* navbar */
+
+
+body {
+  font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+h3{
+    position: relative;
+    left: 40px;
+}
+.list-items{
+    display: flex;
+    margin-left: 40px;
+}
+.list-items li{
+    float: left;
+    margin-left: 30px;
+    list-style: none;
+
+}
+.list-items li:hover{
+    color: red;
+font-size: bold;
+}
+
+.nav-btn button{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    position: relative;
+    left: 850px;
+    top: 15px;
+}
+.bg-shape1{
+    width: 420px;
+    height: 420px;
+    border-radius: 9999px;
+    position: relative;
+    animation: one 10s infinite;
+}
+@keyframes one{
+    0%{left: 0px; top:0px;}
+    25%{left: -100px; top:70px;}
+    50%{left: 50px; top:150px;}
+75%{left: 20px; top:100px;}
+100%{left: 0px; top:0px;}
+}
+.opacity-50{
+    opacity: .5;
+}
+.bg-blur{
+    filter: blur(90px);
+}
+.bg-red{
+    background-color: #FF5E08;
+}
+
+.grad{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+.grad2{
+    position: absolute;
+    top: 480px;
+    left: 1100px; 
+    z-index: -1;
+}
+.grad3{
+    position: absolute;
+    top: 920px;
+    left: 140px; 
+    z-index: -1;
+  
+}
+/* section-1 */
+
+.heading1{
+    position: relative;
+    left: 150px;
+    top: 70px;
+    width: 400px;
+    font-size:43px;
+}
+.para1{
+    position: relative;
+    left: 150px;
+    top: 60px;
+    width: 400px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    left: 147px;
+    top: 65px;
+}
+.imgphone{
+    size: 500px;
+    position: absolute;
+    top: 20px;
+    left: 860px;
+}
+
+.img2{
+    width: 600px;
+    position: relative;
+    left: 134px;
+    top: 90px;
+}
+
+/* section-2 */
+
+.imgphone2{
+    position: relative;
+    left: 50px;
+    top: 120px;
+    
+    
+
+}
+
+.section2 h3{
+    
+    position: relative;
+    top: -520px;
+    left: 800px;
+}
+.section2 h1{
+    position: relative;
+    top: -520px;
+    left: 800px;
+}
+.head{
+    
+    color: #FF5E08; 
+}
+.p-sec-2{
+    position: relative;
+    top: -520px;
+    left: 800px;
+  width: 500px;
+}
+.container{
+    position: relative;
+    left: 70px;
+    width: fit-content;
+}
+.logoicons{
+    color: red;
+    background-color: #FF5E08;
+    width: 15px;
+    position: relative;
+    top: -480px;
+    left: 780px;
+}
+.span{
+    position: relative;
+    left: 20px;
+}
